@@ -12,7 +12,7 @@ spec:
     metadata:
       labels:
         app: cs3219-db
-    spec:
+    spec: 
       containers:
         - name: cs3219-db
           image: cs3219/mariadb:1.0.0
